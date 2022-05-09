@@ -108,8 +108,8 @@ const Keyboard = {
   },
 
   properties: {
-    value: '',
     capsLock: false,
+    value: '',
     shift: false,
     lang: 'En',
     ctrl: false,
