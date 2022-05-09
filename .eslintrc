@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb/base"],
+  "globals": {
+     "window": true,
+     "document": true,
+     "localStorage":true
+   },
+   "env": {
+     "browser": true
+   },
+   "rules": {
+     "no-param-reassign" :["error", { "props": false }],
+     "no-return-assign":"off"
+   }
+
+   
+}
